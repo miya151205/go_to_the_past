@@ -1,13 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Aurora</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <h1>Café Aurora</h1>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Café Miya</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Café Miya</h1>
+      <p>Donde los sueños se hablan con un café</p>
+    </header>
+    <main class="container">
+      <section>
+        <h2>Te ofrecemos</h2>
+        <p>
+          En Café Miya ofrecemos café de alta calidad en un ambiente acogedor.
+          Ven a disfrutar de una experiencia única.
+        </p>
+      </section>
 
-</body>
+      <section>
+        <h2>Nuestra carta</h2>
+        <ul>
+          <li>Café Espresso</li>
+          <li>Café Latte</li>
+          <li>Capuchino</li>
+          <li>Pasteles Caseros</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" /><br /><br />
+          <label for="email">Correo:</label>
+          <input type="email" name="email" /><br /><br />
+          <input class="boton_form" type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Café Aurora</p>
+    </footer>
+  </body>
 </html>

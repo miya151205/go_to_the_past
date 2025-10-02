@@ -1,5 +1,58 @@
-h1 {
-    color: #572e05;
-    text-align: center;
-    margin-top: 50px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5efe6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://media.istockphoto.com/id/1221913991/es/foto/tablero-de-mesa-de-madera-sobre-fondo-interior-del-restaurante-borroso.jpg?s=612x612&w=0&k=20&c=3X6j777rf_ePDVzEcz0BfxuHksqbTD45wuQsn7aNRio=);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.header {
+  background-color: #b08968;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin: 30px 100px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #7f5539;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.boton_form {
+  background-color: #7f5539;
+  color: #f1e6e1;
+  border: none;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #b08968;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  bottom: 0;
 }
